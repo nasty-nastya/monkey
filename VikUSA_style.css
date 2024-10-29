@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #f5f5f5;
+    background-color: #111;
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                url("https://i.ytimg.com/vi/Uq6wjMhC9eA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCarmAiSaOgSlhpTJYvv2bP51sNXQ");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.navbar {
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 30px;
+    text-align: left;
+}
+
+.icon {
+    display: inline-block;
+}
+
+.logo {
+    color: #f5f5f5;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.content h1 {
+    font-size: 48px;
+    margin-top: 20px;
+    color: #ffdf00;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+@media (max-width: 768px) {
+    .content h1 {
+        font-size: 18px;
+    }
+    .logo {
+        font-size: 28px;
+    }
+}
